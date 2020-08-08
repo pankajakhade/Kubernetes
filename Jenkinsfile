@@ -1,1 +1,5 @@
-sh "echo Hi!!"
+node{
+  stage('echo'){
+    sh "echo Hi!!"
+  }
+}
